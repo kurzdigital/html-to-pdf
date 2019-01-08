@@ -9,5 +9,5 @@ build:
     - docker
   stage: build
   script:
-    - /docker-login
-    - /docker-build $CI_REGISTRY_IMAGE
+    - bash /docker-login
+    - bash /docker-build $CI_REGISTRY_IMAGE
