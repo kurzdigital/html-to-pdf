@@ -13,7 +13,7 @@ This microservice will convert HTML to PDF. The conversion will be done with [wk
 ## Example Request
 
    $ curl -X POST 
-        http://localhost 
+        http://localhost:8080 
         -H 'Content-Type: application/json' 
     	-d '{"content":"&lt;h1&gt;Test&lt;/h1&gt;&lt;p&gt;Hello world&lt;/p&gt;","options":{ "pageSize": "letter" }}'
 

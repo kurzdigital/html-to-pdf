@@ -1,6 +1,6 @@
 FROM centos:7
 
-EXPOSE 80
+EXPOSE 8080
 
 RUN yum install -y libpng libjpeg openssl icu libX11 libXext libXrender xorg-x11-fonts-Type1 xorg-x11-fonts-75dpi wget epel-release
 
