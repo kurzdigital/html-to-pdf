@@ -1,10 +1,10 @@
 {
-  "name": "wkhtmltopdf-test",
+  "name": "HTML to PDF converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple microservice which allows you to convert HTML to a PDF file. With wkhtmltopdf.",
   "main": "app.js",
-  "author": "",
-  "license": "ISC",
+  "author": "Marcel Gross <marcel.gross@kurzdigital.com>",
+  "license": "UNLICENSE",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",

@@ -19,3 +19,6 @@ This microservice will convert HTML to PDF. The conversion will be done with [wk
 
 - content is the HTML which should be converted
 - options are optional parameters
+
+## License
+This is public domain.
