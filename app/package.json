@@ -1,5 +1,5 @@
 {
-  "name": "HTML to PDF converter",
+  "name": "html-to-pdf",
   "version": "1.0.0",
   "description": "A simple microservice which allows you to convert HTML to a PDF file. With wkhtmltopdf.",
   "main": "app.js",
