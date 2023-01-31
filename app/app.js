@@ -4,7 +4,7 @@ var wkhtmltopdf = require('wkhtmltopdf');
 
 var app = express();
 
-app.use(bodyParser.json());
+app.use(bodyParser.json( { limit: '10mb' }));
 
 app.post('/', (req, res) => {
   res.setHeader('content-type', 'application/pdf');
